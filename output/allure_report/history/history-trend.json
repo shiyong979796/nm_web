@@ -1,0 +1,37 @@
+[ {
+  "buildOrder" : 3,
+  "reportUrl" : "http://127.0.0.1:8080/job/az_outo_web/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 3,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 5
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://127.0.0.1:8080/job/az_outo_web/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 2,
+    "unknown" : 0,
+    "total" : 2
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://127.0.0.1:8080/job/az_outo_web/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "failed" : 0,
+    "broken" : 0,
+    "skipped" : 0,
+    "passed" : 1,
+    "unknown" : 0,
+    "total" : 1
+  }
+} ]

@@ -1,0 +1,25 @@
+[ {
+  "buildOrder" : 3,
+  "reportUrl" : "http://127.0.0.1:8080/job/az_outo_web/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 5,
+    "retry" : 9
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://127.0.0.1:8080/job/az_outo_web/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 2,
+    "retry" : 1
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://127.0.0.1:8080/job/az_outo_web/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "run" : 1,
+    "retry" : 1
+  }
+} ]

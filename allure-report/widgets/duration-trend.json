@@ -1,0 +1,29 @@
+[ {
+  "buildOrder" : 4,
+  "reportUrl" : "http://127.0.0.1:8080/job/az_outo_web/4/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 70861
+  }
+}, {
+  "buildOrder" : 3,
+  "reportUrl" : "http://127.0.0.1:8080/job/az_outo_web/3/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 423898
+  }
+}, {
+  "buildOrder" : 2,
+  "reportUrl" : "http://127.0.0.1:8080/job/az_outo_web/2/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 98873
+  }
+}, {
+  "buildOrder" : 1,
+  "reportUrl" : "http://127.0.0.1:8080/job/az_outo_web/1/allure",
+  "reportName" : "AllureReport",
+  "data" : {
+    "duration" : 7263
+  }
+} ]

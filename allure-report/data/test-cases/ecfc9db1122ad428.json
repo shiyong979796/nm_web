@@ -1,0 +1,134 @@
+{
+  "uid" : "ecfc9db1122ad428",
+  "name" : "test_check_out_bd",
+  "fullName" : "test_case.test_check_out.Test_check_out#test_check_out_bd",
+  "historyId" : "9abfa9962a821c455eb7962ea96d7f80",
+  "time" : {
+    "start" : 1641309947605,
+    "stop" : 1641309953693,
+    "duration" : 6088
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "init_fixture",
+    "time" : {
+      "start" : 1641309940015,
+      "stop" : 1641309947605,
+      "duration" : 7590
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "init_fixture::0",
+    "time" : {
+      "start" : 1641309953693,
+      "stop" : 1641309955913,
+      "duration" : 2220
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init_fixture')"
+  }, {
+    "name" : "tag",
+    "value" : "mark1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_check_out"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_check_out"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-CN57IGF7"
+  }, {
+    "name" : "thread",
+    "value" : "22476-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_check_out"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 4,
+        "unknown" : 0,
+        "total" : 4
+      },
+      "items" : [ {
+        "uid" : "df4cfe8f6ced6cc7",
+        "reportUrl" : "http://127.0.0.1:8080/job/az_outo_web/3/allure/#testresult/df4cfe8f6ced6cc7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641308821561,
+          "stop" : 1641308828824,
+          "duration" : 7263
+        }
+      }, {
+        "uid" : "990e3634a534e6a9",
+        "reportUrl" : "http://127.0.0.1:8080/job/az_outo_web/2/allure/#testresult/990e3634a534e6a9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641308821561,
+          "stop" : 1641308828824,
+          "duration" : 7263
+        }
+      }, {
+        "uid" : "110d4b1a6cf5b10d",
+        "reportUrl" : "http://127.0.0.1:8080/job/az_outo_web/1/allure/#testresult/110d4b1a6cf5b10d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1641308821561,
+          "stop" : 1641308828824,
+          "duration" : 7263
+        }
+      } ]
+    },
+    "tags" : [ "mark1", "@pytest.mark.usefixtures('init_fixture')" ]
+  },
+  "source" : "ecfc9db1122ad428.json",
+  "parameterValues" : [ ]
+}

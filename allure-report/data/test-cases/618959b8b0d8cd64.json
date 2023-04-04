@@ -1,0 +1,144 @@
+{
+  "uid" : "618959b8b0d8cd64",
+  "name" : "test_all_data_empty",
+  "fullName" : "test_case.test_Login.Test_login#test_all_data_empty",
+  "historyId" : "6e837f58421adf1016171afd5c1652e1",
+  "time" : {
+    "start" : 1641309894544,
+    "stop" : 1641309894778,
+    "duration" : 234
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : true,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "init_fixture",
+    "time" : {
+      "start" : 1641309882835,
+      "stop" : 1641309892687,
+      "duration" : 9852
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "back_login_page",
+    "time" : {
+      "start" : 1641309892687,
+      "stop" : 1641309894543,
+      "duration" : 1856
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "back_login_page::0",
+    "time" : {
+      "start" : 1641309894778,
+      "stop" : 1641309894778,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  }, {
+    "name" : "init_fixture::0",
+    "time" : {
+      "start" : 1641309915502,
+      "stop" : 1641309917725,
+      "duration" : 2223
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('back_login_page')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_Login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_login"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-CN57IGF7"
+  }, {
+    "name" : "thread",
+    "value" : "22476-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_case.test_Login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "6555d7da06e462d1",
+        "reportUrl" : "http://127.0.0.1:8080/job/az_outo_web/3/allure/#testresult/6555d7da06e462d1",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.TimeoutException: Message:",
+        "time" : {
+          "start" : 1641309224355,
+          "stop" : 1641309245459,
+          "duration" : 21104
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('back_login_page')" ]
+  },
+  "source" : "618959b8b0d8cd64.json",
+  "parameterValues" : [ ]
+}
