@@ -1,7 +1,7 @@
 #:@ TIME 2021/12/20   0:00
 #:@FILE  test_Login.py
 #:@EMAIL  1557225637@QQ.C
-from page_locators.login_page_locators import Login_page_locators as lg
+from pages.login_page import Login_page_locators as lg
 from page_object.login_page import Login_page
 from page_object.home_page import Home_page
 import time
