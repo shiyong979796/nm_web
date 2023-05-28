@@ -1,98 +1,17 @@
-2022-09-09 17:05:29,387:mylog:Test_login:test_Login.py:17:INFO:开始执行login 用例
-2022-09-09 17:05:29,404:mylog:init_fixture:conftest.py:11:INFO:==========   class级  前置条件：打开Chrome浏览器，访问登录页面    ==========
-2022-09-09 17:05:36,827:mylog:back_login_page:conftest.py:22:INFO:==========   function级   前置条件：刷新浏览器
-2022-09-09 17:05:38,677:mylog:__waite_ele_visible:basepage.py:31:INFO:在 输入email 行为,等待元素：('id', '_email') 可见
-2022-09-09 17:05:38,705:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.028005599975585938
-2022-09-09 17:05:38,705:mylog:get_element:basepage.py:52:INFO:在  输入email  行为,查找元素：('id', '_email')
-2022-09-09 17:05:38,712:mylog:input_value:basepage.py:89:INFO:在 输入email 行为，操作input元素：('id', '_email')
-2022-09-09 17:05:38,749:mylog:input_value:basepage.py:97:INFO:value 输入成功,value为：
-2022-09-09 17:05:38,749:mylog:__waite_ele_visible:basepage.py:31:INFO:在 输入密码 行为,等待元素：('id', '_password') 可见
-2022-09-09 17:05:38,774:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.024003028869628906
-2022-09-09 17:05:38,774:mylog:get_element:basepage.py:52:INFO:在  输入密码  行为,查找元素：('id', '_password')
-2022-09-09 17:05:38,779:mylog:input_value:basepage.py:89:INFO:在 输入密码 行为，操作input元素：('id', '_password')
-2022-09-09 17:05:38,814:mylog:input_value:basepage.py:97:INFO:value 输入成功,value为：
-2022-09-09 17:05:38,814:mylog:click_element:basepage.py:75:INFO:在 点击登录 行为,点击元素：('xpath', '//button[@tabindex="4"]')
-2022-09-09 17:05:38,814:mylog:__waite_ele_visible:basepage.py:31:INFO:在 点击登录 行为,等待元素：('xpath', '//button[@tabindex="4"]') 可见
-2022-09-09 17:05:38,834:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.02000260353088379
-2022-09-09 17:05:38,834:mylog:get_element:basepage.py:52:INFO:在  点击登录  行为,查找元素：('xpath', '//button[@tabindex="4"]')
-2022-09-09 17:05:38,974:mylog:back_login_page:conftest.py:22:INFO:==========   function级   前置条件：刷新浏览器
-2022-09-09 17:05:41,130:mylog:__waite_ele_visible:basepage.py:31:INFO:在 输入email 行为,等待元素：('id', '_email') 可见
-2022-09-09 17:05:41,175:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.04400801658630371
-2022-09-09 17:05:41,176:mylog:get_element:basepage.py:52:INFO:在  输入email  行为,查找元素：('id', '_email')
-2022-09-09 17:05:41,263:mylog:input_value:basepage.py:89:INFO:在 输入email 行为，操作input元素：('id', '_email')
-2022-09-09 17:05:41,335:mylog:input_value:basepage.py:97:INFO:value 输入成功,value为：
-2022-09-09 17:05:41,335:mylog:__waite_ele_visible:basepage.py:31:INFO:在 输入密码 行为,等待元素：('id', '_password') 可见
-2022-09-09 17:05:41,353:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.017003774642944336
-2022-09-09 17:05:41,353:mylog:get_element:basepage.py:52:INFO:在  输入密码  行为,查找元素：('id', '_password')
-2022-09-09 17:05:41,360:mylog:input_value:basepage.py:89:INFO:在 输入密码 行为，操作input元素：('id', '_password')
-2022-09-09 17:05:41,421:mylog:input_value:basepage.py:97:INFO:value 输入成功,value为：123456
-2022-09-09 17:05:41,422:mylog:click_element:basepage.py:75:INFO:在 点击登录 行为,点击元素：('xpath', '//button[@tabindex="4"]')
-2022-09-09 17:05:41,422:mylog:__waite_ele_visible:basepage.py:31:INFO:在 点击登录 行为,等待元素：('xpath', '//button[@tabindex="4"]') 可见
-2022-09-09 17:05:41,441:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.01900315284729004
-2022-09-09 17:05:41,441:mylog:get_element:basepage.py:52:INFO:在  点击登录  行为,查找元素：('xpath', '//button[@tabindex="4"]')
-2022-09-09 17:05:41,671:mylog:back_login_page:conftest.py:22:INFO:==========   function级   前置条件：刷新浏览器
-2022-09-09 17:05:43,513:mylog:__waite_ele_visible:basepage.py:31:INFO:在 输入email 行为,等待元素：('id', '_email') 可见
-2022-09-09 17:05:43,737:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.22257351875305176
-2022-09-09 17:05:43,737:mylog:get_element:basepage.py:52:INFO:在  输入email  行为,查找元素：('id', '_email')
-2022-09-09 17:05:43,743:mylog:input_value:basepage.py:89:INFO:在 输入email 行为，操作input元素：('id', '_email')
-2022-09-09 17:05:43,790:mylog:input_value:basepage.py:97:INFO:value 输入成功,value为：ys@tetx.com
-2022-09-09 17:05:43,790:mylog:__waite_ele_visible:basepage.py:31:INFO:在 输入密码 行为,等待元素：('id', '_password') 可见
-2022-09-09 17:05:43,806:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.016003847122192383
-2022-09-09 17:05:43,806:mylog:get_element:basepage.py:52:INFO:在  输入密码  行为,查找元素：('id', '_password')
-2022-09-09 17:05:43,812:mylog:input_value:basepage.py:89:INFO:在 输入密码 行为，操作input元素：('id', '_password')
-2022-09-09 17:05:43,865:mylog:input_value:basepage.py:97:INFO:value 输入成功,value为：
-2022-09-09 17:05:43,865:mylog:click_element:basepage.py:75:INFO:在 点击登录 行为,点击元素：('xpath', '//button[@tabindex="4"]')
-2022-09-09 17:05:43,865:mylog:__waite_ele_visible:basepage.py:31:INFO:在 点击登录 行为,等待元素：('xpath', '//button[@tabindex="4"]') 可见
-2022-09-09 17:05:43,885:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.02000570297241211
-2022-09-09 17:05:43,885:mylog:get_element:basepage.py:52:INFO:在  点击登录  行为,查找元素：('xpath', '//button[@tabindex="4"]')
-2022-09-09 17:05:44,025:mylog:back_login_page:conftest.py:22:INFO:==========   function级   前置条件：刷新浏览器
-2022-09-09 17:05:45,524:mylog:__waite_ele_visible:basepage.py:31:INFO:在 输入email 行为,等待元素：('id', '_email') 可见
-2022-09-09 17:05:45,546:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.021010875701904297
-2022-09-09 17:05:45,546:mylog:get_element:basepage.py:52:INFO:在  输入email  行为,查找元素：('id', '_email')
-2022-09-09 17:05:45,563:mylog:input_value:basepage.py:89:INFO:在 输入email 行为，操作input元素：('id', '_email')
-2022-09-09 17:05:45,613:mylog:input_value:basepage.py:97:INFO:value 输入成功,value为：ystetx.com
-2022-09-09 17:05:45,613:mylog:__waite_ele_visible:basepage.py:31:INFO:在 输入密码 行为,等待元素：('id', '_password') 可见
-2022-09-09 17:05:45,630:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.017004013061523438
-2022-09-09 17:05:45,630:mylog:get_element:basepage.py:52:INFO:在  输入密码  行为,查找元素：('id', '_password')
-2022-09-09 17:05:45,653:mylog:input_value:basepage.py:89:INFO:在 输入密码 行为，操作input元素：('id', '_password')
-2022-09-09 17:05:45,697:mylog:input_value:basepage.py:97:INFO:value 输入成功,value为：
-2022-09-09 17:05:45,698:mylog:click_element:basepage.py:75:INFO:在 点击登录 行为,点击元素：('xpath', '//button[@tabindex="4"]')
-2022-09-09 17:05:45,698:mylog:__waite_ele_visible:basepage.py:31:INFO:在 点击登录 行为,等待元素：('xpath', '//button[@tabindex="4"]') 可见
-2022-09-09 17:05:45,717:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.018999576568603516
-2022-09-09 17:05:45,717:mylog:get_element:basepage.py:52:INFO:在  点击登录  行为,查找元素：('xpath', '//button[@tabindex="4"]')
-2022-09-09 17:05:46,090:mylog:back_login_page:conftest.py:22:INFO:==========   function级   前置条件：刷新浏览器
-2022-09-09 17:05:47,662:mylog:__waite_ele_visible:basepage.py:31:INFO:在 输入email 行为,等待元素：('id', '_email') 可见
-2022-09-09 17:05:47,689:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.02700662612915039
-2022-09-09 17:05:47,689:mylog:get_element:basepage.py:52:INFO:在  输入email  行为,查找元素：('id', '_email')
-2022-09-09 17:05:47,695:mylog:input_value:basepage.py:89:INFO:在 输入email 行为，操作input元素：('id', '_email')
-2022-09-09 17:05:47,738:mylog:input_value:basepage.py:97:INFO:value 输入成功,value为：ys@tetx.com
-2022-09-09 17:05:47,739:mylog:__waite_ele_visible:basepage.py:31:INFO:在 输入密码 行为,等待元素：('id', '_password') 可见
-2022-09-09 17:05:47,753:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.013995647430419922
-2022-09-09 17:05:47,753:mylog:get_element:basepage.py:52:INFO:在  输入密码  行为,查找元素：('id', '_password')
-2022-09-09 17:05:47,759:mylog:input_value:basepage.py:89:INFO:在 输入密码 行为，操作input元素：('id', '_password')
-2022-09-09 17:05:47,821:mylog:input_value:basepage.py:97:INFO:value 输入成功,value为：123456756
-2022-09-09 17:05:47,821:mylog:click_element:basepage.py:75:INFO:在 点击登录 行为,点击元素：('xpath', '//button[@tabindex="4"]')
-2022-09-09 17:05:47,821:mylog:__waite_ele_visible:basepage.py:31:INFO:在 点击登录 行为,等待元素：('xpath', '//button[@tabindex="4"]') 可见
-2022-09-09 17:05:47,837:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.016004323959350586
-2022-09-09 17:05:47,837:mylog:get_element:basepage.py:52:INFO:在  点击登录  行为,查找元素：('xpath', '//button[@tabindex="4"]')
-2022-09-09 17:05:49,968:mylog:back_login_page:conftest.py:22:INFO:==========   function级   前置条件：刷新浏览器
-2022-09-09 17:05:52,166:mylog:__waite_ele_visible:basepage.py:31:INFO:在 输入email 行为,等待元素：('id', '_email') 可见
-2022-09-09 17:05:52,200:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.034005165100097656
-2022-09-09 17:05:52,201:mylog:get_element:basepage.py:52:INFO:在  输入email  行为,查找元素：('id', '_email')
-2022-09-09 17:05:52,207:mylog:input_value:basepage.py:89:INFO:在 输入email 行为，操作input元素：('id', '_email')
-2022-09-09 17:05:52,250:mylog:input_value:basepage.py:97:INFO:value 输入成功,value为：ys@tetx.com
-2022-09-09 17:05:52,250:mylog:__waite_ele_visible:basepage.py:31:INFO:在 输入密码 行为,等待元素：('id', '_password') 可见
-2022-09-09 17:05:52,270:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.020002126693725586
-2022-09-09 17:05:52,270:mylog:get_element:basepage.py:52:INFO:在  输入密码  行为,查找元素：('id', '_password')
-2022-09-09 17:05:52,276:mylog:input_value:basepage.py:89:INFO:在 输入密码 行为，操作input元素：('id', '_password')
-2022-09-09 17:05:52,387:mylog:input_value:basepage.py:97:INFO:value 输入成功,value为：123456
-2022-09-09 17:05:52,387:mylog:click_element:basepage.py:75:INFO:在 点击登录 行为,点击元素：('xpath', '//button[@tabindex="4"]')
-2022-09-09 17:05:52,387:mylog:__waite_ele_visible:basepage.py:31:INFO:在 点击登录 行为,等待元素：('xpath', '//button[@tabindex="4"]') 可见
-2022-09-09 17:05:52,403:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.016004085540771484
-2022-09-09 17:05:52,403:mylog:get_element:basepage.py:52:INFO:在  点击登录  行为,查找元素：('xpath', '//button[@tabindex="4"]')
-2022-09-09 17:05:54,611:mylog:__waite_ele_visible:basepage.py:31:INFO:在 获取登录后的email 行为,等待元素：('id', 'ht-login') 可见
-2022-09-09 17:05:55,275:mylog:__waite_ele_visible:basepage.py:47:INFO:等待元素成功，等待时间为:-0.6636641025543213
-2022-09-09 17:05:55,275:mylog:get_element:basepage.py:52:INFO:在  获取登录后的email  行为,查找元素：('id', 'ht-login')
-2022-09-09 17:05:55,281:mylog:get_text:basepage.py:104:INFO:在 获取登录后的email 行为，获取元素文本:('id', 'ht-login')
-2022-09-09 17:05:55,296:mylog:get_text:basepage.py:112:INFO:获取文本元素成功，元素为：Hi, ys
-2022-09-09 17:05:55,298:mylog:init_fixture:conftest.py:17:INFO:==========   class级  后置条件：关闭浏览器    ==========
+2023-05-28 09:55:41,507:mylog:__waite_ele_visible:basepage.py:41:INFO:等待元素(('xpath', '//input[@name="username"]'))成功，等待时间为:-0.024013996124267578
+2023-05-28 09:55:41,545:mylog:input_value:basepage.py:89:INFO:value 输入成功,value为：test110
+2023-05-28 09:55:41,567:mylog:__waite_ele_visible:basepage.py:41:INFO:等待元素(('xpath', '//input[@name="password"]'))成功，等待时间为:-0.02200913429260254
+2023-05-28 09:55:41,623:mylog:input_value:basepage.py:89:INFO:value 输入成功,value为：1234567
+2023-05-28 09:55:41,640:mylog:__waite_ele_visible:basepage.py:41:INFO:等待元素(('xpath', '//input[@type="submit"]'))成功，等待时间为:-0.01700758934020996
+2023-05-28 09:55:41,999:mylog:__waite_ele_visible:basepage.py:41:INFO:等待元素(('xpath', '//input[@name="username"]'))成功，等待时间为:-0.020005464553833008
+2023-05-28 09:55:42,037:mylog:input_value:basepage.py:89:INFO:value 输入成功,value为：test110
+2023-05-28 09:55:42,051:mylog:__waite_ele_visible:basepage.py:41:INFO:等待元素(('xpath', '//input[@name="password"]'))成功，等待时间为:-0.01400613784790039
+2023-05-28 09:55:42,110:mylog:input_value:basepage.py:89:INFO:value 输入成功,value为：1234567
+2023-05-28 09:55:42,122:mylog:__waite_ele_visible:basepage.py:41:INFO:等待元素(('xpath', '//input[@type="submit"]'))成功，等待时间为:-0.012006044387817383
+2023-05-28 09:55:45,851:mylog:__waite_ele_visible:basepage.py:41:INFO:等待元素(('xpath', '//span[@title="客服管理"]'))成功，等待时间为:-0.025000572204589844
+2023-05-28 09:55:45,920:mylog:__waite_ele_visible:basepage.py:41:INFO:等待元素(('xpath', '//a[@title="客服订单查询"]'))成功，等待时间为:-0.02000737190246582
+2023-05-28 09:55:45,975:mylog:__waite_ele_visible:basepage.py:41:INFO:等待元素(('id', 'main_frame'))成功，等待时间为:-0.019006729125976562
+2023-05-28 09:55:46,514:mylog:__waite_ele_visible:basepage.py:41:INFO:等待元素(('xpath', '//textarea[@class="form-control"]'))成功，等待时间为:-0.020000457763671875
+2023-05-28 09:55:46,563:mylog:input_value:basepage.py:89:INFO:value 输入成功,value为：
+2023-05-28 09:55:46,583:mylog:__waite_ele_visible:basepage.py:41:INFO:等待元素(('id', 'checkStartTime'))成功，等待时间为:-0.020014047622680664
+2023-05-28 09:55:47,197:mylog:__waite_ele_visible:basepage.py:41:INFO:等待元素(('xpath', '//td/a[@target="_blank"]'))成功，等待时间为:-0.027011632919311523

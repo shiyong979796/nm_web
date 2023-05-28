@@ -15,6 +15,7 @@ class HomePage(Base_page):
     def expect_login_succeed(self):
         time.sleep(2)
         user_tetx = self.get_text(self.home_user_email_text, '获取登录后的email')
+
         return user_tetx
 
     def click_navgation_BD(self):
