@@ -13,9 +13,15 @@ error_picture_dir=os.path.join(base_dir,r'output','error_picture')
 
 allure_dir=os.path.join(base_dir,'output','allure_report')
 
+erp_file_path = os.path.join(base_dir, 'erp/server_config_file/azft.azft')
+erp_file_path2 = os.path.join(base_dir, 'erp/server_config_file/erp-test-aws.rsa')
+
+
 
 if __name__ == '__main__':
     print(base_dir)
     print(log_file_dir)
     print(error_picture_dir)
     print(allure_dir)
+    print(erp_file_path)
+    print(erp_file_path2)

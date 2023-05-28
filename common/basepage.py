@@ -114,13 +114,13 @@ class Base_page:
 
     def swich_to_window(self):
 
-        time.sleep(1)
+        time.sleep(2)
 
         log.info('获取当前 浏览器所有窗口句柄')
         win_s = self.driver.window_handles
         try:
             log.info('准备切换到最新窗口')
-            driver.switch_to.window((win_s[-1]))
+            self.driver.switch_to.window(win_s[-1])
         except:
             log.exception('切换到新窗口失败')
         else:

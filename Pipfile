@@ -12,7 +12,7 @@ requests = "*"
 pytest = "*"
 gevent = "*"
 selenium = "==4.4.3"
-
+paramiko = "*"
 
 [dev-packages]
 
