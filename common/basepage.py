@@ -10,7 +10,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
+from selenium.webdriver.common.keys import Keys
 
 class Base_page:
     '''
@@ -74,12 +74,14 @@ class Base_page:
             self.get_page_img(page_action)
             raise error
 
-    def input_value(self, loc, value, page_action=None, index=None):
+    def input_value(self, loc, value, page_action=None, index=None, submit=False):
         loc_obj = self.get_element(loc, page_action, index)
         try:
             if page_action:
                 log.info('在 {} 行为，操作input元素：{}'.format(page_action, loc))
             loc_obj.send_keys(value)
+            if submit:
+                loc_obj.send_keys(Keys.ENTER)
         except:
             log.exception('输入文本失败')
             self.get_page_img(page_action)
@@ -89,10 +91,11 @@ class Base_page:
             log.info('value 输入成功,value为：{}'.format(value))
 
     def get_text(self, loc, page_action=None, index=None):
-        if page_action == '':
-            loc_obj = self.get_element(loc, page_action, index)
+
+        loc_obj = self.get_element(loc, page_action, index)
         try:
-            log.info('在 {} 行为，获取元素文本:{}'.format(page_action, loc))
+            if page_action == '':
+                log.info('在 {} 行为，获取元素文本:{}'.format(page_action, loc))
             text_obj = loc_obj.text
         except:
             log.exception('获取文本失败')
@@ -112,7 +115,7 @@ class Base_page:
         # 调用截图方法 传入文件路径
         self.driver.save_screenshot(file_path)
 
-    def swich_to_window(self):
+    def swich_to_window(self, old=False):
 
         time.sleep(2)
 
@@ -120,7 +123,10 @@ class Base_page:
         win_s = self.driver.window_handles
         try:
             log.info('准备切换到最新窗口')
-            self.driver.switch_to.window(win_s[-1])
+            if old:
+                self.driver.switch_to.window(win_s[0])
+            else:
+                self.driver.switch_to.window(win_s[-1])
         except:
             log.exception('切换到新窗口失败')
         else:

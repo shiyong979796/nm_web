@@ -42,11 +42,70 @@ def run_erp2():
 
     stdin, stdout, stderr = ssh.exec_command(
         'sudo php /var/www/http/erp400/protected/yiic azReserveOrderInventory createAzReserveRecord')
+    print('已执行命令 准备打印结果')
 
     # 获取命令结果
     result = stdout.read()
+    result2= stdin
     print(result.decode('utf-8'))
     ssh.close()
 
+
+def run_erp3():
+    # 通过文件读取本地私钥，可以设置password，我们这里没有设置
+    private_key = paramiko.RSAKey.from_private_key_file(erp_file_path2)
+
+    # 创建SSH对象
+    ssh = paramiko.SSHClient()
+    # 允许连接不在know_hosts文件中的主机
+    ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    # 连接服务器
+    try:
+        ssh.connect(hostname='16.162.224.248', port=38022, username='azerp', pkey=private_key)
+        print('连接服务成功')
+    except:
+        print('连接erp服务失败')
+        raise
+    print('开始执行命令：php /var/www/http/erp400/protected/yiic azReserveOrderInventory reserveAzazie')
+
+    stdin, stdout, stderr = ssh.exec_command(
+        'php /var/www/http/erp400/protected/yiic azReserveOrderInventory reserveAzazie')
+
+    time.sleep(30)
+    print('执行命令完成')
+
+    # 获取命令结果
+
+    ssh.close()
+
+
+def run_erp4(id):
+    # 通过文件读取本地私钥，可以设置password，我们这里没有设置
+    private_key = paramiko.RSAKey.from_private_key_file(erp_file_path2)
+
+    # 创建SSH对象
+    ssh = paramiko.SSHClient()
+    # 允许连接不在know_hosts文件中的主机
+    ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+    # 连接服务器
+    try:
+        ssh.connect(hostname='16.162.224.248', port=38022, username='azerp', pkey=private_key)
+        print('连接服务成功')
+    except:
+        print('连接erp服务失败')
+        raise
+    print('开始执行命令：php /var/www/http/erp400/protected/yiic azReserveOrderInventory reserveAzazie')
+
+    stdin, stdout, stderr = ssh.exec_command(
+        'php /var/www/http/erp400/protected/yiic azReserveOrderInventory reserveAzazie')
+
+    time.sleep(30)
+    print('执行命令完成')
+
+    # 获取命令结果
+
+    ssh.close()
+
+
 if __name__ == '__main__':
-    run_erp2()
+    run_erp3()
